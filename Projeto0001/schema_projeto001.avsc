@@ -1,0 +1,11 @@
+{
+    "namespace":"lab.avro",
+    "type": "record",
+    "name": "pedido",
+    "fields":[
+        {"name": "codigo_pedido", "type": "int"},
+        {"name": "nome_cliente", "type": ["null","string"]},
+        {"name": "mes_compra", "type": ["null","string"]},
+        {"name": "valor_compra", "type": ["null","int"]}
+    ]
+}
